@@ -31,7 +31,7 @@ jobs:
 
     - name: Add VPS to known hosts
       run: |
-        echo "your_vps_ip ssh-rsa AAAAB3Nza...rest_of_the_host_key" >> ~/.ssh/known_hosts
+        echo "13.39.193.165  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDBvPHowcwaiourgf6HiRsV5Quq/xGr9u6friZW6NNbOf73ih5JspbxHd5b4LD/xPv2vlpgfD6N2EBSpIOjY4u8D89MOltQ5WuhsaivNjXfJBXCa6Np4eHC85GnhR1DVNwo2eLwnCxiBLl58Tqbeta9DP5ysraqwlBQYdrZmwAAnAQ2p1ET+mVuED3QCS5VVDWGaIEmOVyYBL2QLD4VzLIc9+WHsRDy/ISXVT79e7i5pBgGUIphxjUVvDkzKQP8Qirob96Jld0AgZA3nK20dAm20ZTpjEdMTaHyQy4AFQO3k9NbNdGO0GmVsaZNxsSOdDXQG3x8X49lSmNQqSY1W3CzMeY2eOzHYVpl4G1txR9Yi+DeToBrWCaPGNhuFWIhF4Wo/IW0dFuwNvHJm4yCuuJBYMzP40u9mjo1d9c9+s1LQBajOWWEmXYP0TYgjaHRQrPzqbE8B2uGy2zbALulhUzkVXH0zMLgQUCxy4dyCnM/hm8Uwhifw6qgPjPmOI90CUM=" >> ~/.ssh/known_hosts
 
     - name: Deploy files to VPS
       run: |
